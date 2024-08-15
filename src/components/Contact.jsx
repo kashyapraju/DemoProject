@@ -41,7 +41,7 @@ const Contact = () => {
   };
 
   const buttonStyle = {
-    width: '10%',
+    width: '50%',
     padding: '10px',
     backgroundColor: '#007bff',
     color: 'white',
@@ -85,7 +85,7 @@ const Contact = () => {
               />
             </div>
             <div>
-              <button 
+              <button className="btn btn-primary" 
                 type="submit" 
                 style={buttonStyle}
               >
