@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,46 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.img-car {
+  margin-left: 100px;
+  width: 600px;
+  height: 300px;
+  object-fit: contain;
+}
+
+
+
+
+.product {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+}
+
+.product-top {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-bottom {
+  margin-top: 100px;
+}
+
+.product-top>h1,
+.product-bottom>h1,
+.contact>h1 {
+  text-align: center;
+}
+
+.product-card {
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.product-carousel {
+  overflow: hidden;
 }

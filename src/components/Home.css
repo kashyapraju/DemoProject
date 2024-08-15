@@ -1,0 +1,24 @@
+/* TwoColumnLayout.css */
+
+/* Ensure the buttons are responsive */
+.btn {
+    width: 100%;
+    max-width: 200px; /* Adjust the max-width as needed */
+  }
+  
+  /* Add some margin for smaller screens */
+  @media (max-width: 768px) {
+    .row {
+      text-align: center;
+    }
+    
+    .btn {
+      display: block;
+      margin: 10px auto; /* Center buttons on small screens */
+    }
+  
+    .left-box, .right-box {
+      margin-top: 10px;
+    }
+  }
+  
